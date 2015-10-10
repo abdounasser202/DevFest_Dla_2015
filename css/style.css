@@ -416,6 +416,31 @@ nav ul li.active > a {
   letter-spacing: 0.08em;
 }
 
+#register {
+	padding: 50px 0;
+	background: rgba(3,2,3,1);
+background: -moz-linear-gradient(top, rgba(3,2,3,1) 0%, rgba(93,97,99,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,2,3,1)), color-stop(100%, rgba(93,97,99,1)));
+background: -webkit-linear-gradient(top, rgba(3,2,3,1) 0%, rgba(93,97,99,1) 100%);
+background: -o-linear-gradient(top, rgba(3,2,3,1) 0%, rgba(93,97,99,1) 100%);
+background: -ms-linear-gradient(top, rgba(3,2,3,1) 0%, rgba(93,97,99,1) 100%);
+background: linear-gradient(to bottom, rgba(3,2,3,1) 0%, rgba(93,97,99,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030203', endColorstr='#5d6163', GradientType=0 );
+	
+}
+
+#register h1 {
+	color: #fff;
+}
+
+#register h1 a, #register span {
+	color: #00acee;
+}
+
+
+#register span {
+	font-size: 50px;
+}
 
 /*Results*/
 
@@ -545,7 +570,6 @@ nav ul li.active > a {
 
 .call-to-action {
   padding: 20px 0;
-  background-color: #3f51b5;
 }
 
 .call-to-action h2 {
