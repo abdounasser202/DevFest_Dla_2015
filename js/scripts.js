@@ -63,6 +63,32 @@ $(document).ready(function(){
 	        $('.main-nav').removeClass("sticky");
 	    }
 	});
+
+	//Navigation Menu
+	$(window).scroll(function() {
+		if (window.scrollY <= 400) {
+			$('a.item').removeClass('active');
+		}
+		if (window.scrollY > 400 && window.scrollY <= 800) {
+			$('a.item').removeClass('active');
+			$('#Intro').addClass('active');
+		} else if (window.scrollY > 800 && window.scrollY <= 1220) {
+			$('a.item').removeClass('active');
+			$('#Speaker').addClass('active');
+		} else if (window.scrollY > 1220 && window.scrollY <= 1500) {
+			$('a.item').removeClass('active');
+			$('#Devfest').addClass('active');
+		} else if (window.scrollY > 1500 && window.scrollY <= 2200) {
+			$('a.item').removeClass('active');
+			$('#Agenda').addClass('active');
+		} else if (window.scrollY > 2200 && window.scrollY <= 2800) {
+			$('a.item').removeClass('active');
+			$('#lieu').addClass('active');
+		} else if (window.scrollY > 2800) {
+			$('a.item').removeClass('active');
+			$('#Organisation').addClass('active');
+		}
+	});
 	
 
 	// Off-screen Navigation
@@ -130,6 +156,7 @@ $(document).ready(function(){
     owl.owlCarousel({
 
 	  items: 2,
+	  autoPlay: true,
 	  itemsDesktop: [1199,2],
 	  itemsDesktopSmall: [979,1],
 	  itemsTablet: [768,1],
@@ -137,8 +164,7 @@ $(document).ready(function(){
 	  itemsMobile: [479,1],
 	  slideSpeed: 300,
       paginationSpeed: 200,
-      pagination: false,
-      autoPlay : true
+      pagination: false
 
 	});
 
