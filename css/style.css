@@ -1,7 +1,7 @@
 canvas#spiders {
   width:100%;
   max-height:500px;
-  background-color: rgba(63,81,181,0.4);
+  background-color: rgba(39, 174, 96, 0.4);
 }
 h1.main-title {
   position: relative;
@@ -52,7 +52,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #3142a3;
+  color: #fff;
   outline: none;
 }
 
@@ -83,6 +83,7 @@ body img {
   border: none;
   max-width: 100%;
   height: auto;
+  background-size: cover;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -182,20 +183,38 @@ p {
 }
 
 .logo {
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   height: 70px;
+  line-height: 70px;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
+a.item {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 10px;
+  color: #fff;
+}
+
+a.item.active {
+  border-bottom: 4px solid #fff;
+  color: #34495e;
+}
+
+a.item:hover {
+  color: #34495e;
+}
 .main-nav.sticky {
   position: fixed;
   width: 100%;
   height: 70px;
-  background-color: rgba(63,81,181,1);
+  background-color: #27ae60; /*rgba(63,81,181,1)*/
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5);
 }
 
 .main-nav.sticky .logo {
@@ -1091,7 +1110,6 @@ textarea.form-control {
   padding: 50px 0;
   background-color: #F5F5F5;
   border-top: 1px solid #ccc;
-  text-align: center;
 }
 
 #footer.minimal .copyright {
@@ -1100,13 +1118,24 @@ textarea.form-control {
   font-size: 13px;
 }
 
+#footer img {
+  margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------*/
+/* Modal
+/*-------------------------------------------------------*/
+
+.modal-dialog {
+  width: 980px;
+}
 
 /*-------------------------------------------------------*/
 /* Blog Single
 /*-------------------------------------------------------*/
 
 .page-title {
-  background: url(../upload/blog_title_bg.jpg) no-repeat fixed;
+  background: url(../upload/logo-devFest.png) no-repeat fixed;
   position: relative;
   background-position: 50% 0%;
   max-height:500px;
@@ -1330,7 +1359,7 @@ blockquote > p {
 /* Buttons
 /*-------------------------------------------------------*/
 
-.btn {
+/* .btn {
   font-family: 'Roboto', Arial, sans-serif;
   color: #333;
   webkit-border-radius: 3px;
@@ -1375,9 +1404,14 @@ blockquote > p {
   color: #fff;
 }
 
-.btn-pink:hover {
+*/.btn-blue {
+  background-color: #005b94 !important;
   color: #fff;
 }
+/*
+.btn-pink:hover, .btn-blue:hover {
+  color: #fff;
+} */
 
 .video-container {
   position: relative;
@@ -1478,3 +1512,4 @@ blockquote > p {
 .scroll-down i {
   color: #3f51b5;
 }
+
