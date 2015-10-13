@@ -57,7 +57,7 @@ $(document).ready(function(){
 
 	// jQuery Sticky menu
     $(window).scroll(function(){
-	    if(window.scrollY > 10){
+	    if(window.scrollY > 70){
 	        $('.main-nav').addClass("sticky");
 	    }else{
 	        $('.main-nav').removeClass("sticky");
