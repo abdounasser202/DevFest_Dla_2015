@@ -6,9 +6,9 @@ canvas#spiders {
 h1.main-title {
   position: relative;
   margin-top: -350px;
-  font-size: 5vw !important;
+  font-size: 60px !important;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
 }
 h1.main-title span {font-size: 3vw;}
 .clearfix { *zoom: 1; }
@@ -465,7 +465,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030203', end
 
 .subheading {
   font-family: "Roboto", Arial, sans-serif;
-  color: #9e9e9e;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -765,6 +765,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030203', end
 
 .testimonials-slider .item {
   margin: auto 15px;
+}
+
+div.item-o {
+  margin-right: 20px !important;
+}
+
+#owl-organizers .owl-item {
+  width: 370px !important;
 }
 
 .testimonials-box {
@@ -1172,6 +1180,13 @@ textarea.form-control {
   background-position: 50% 50%;
   max-height:500px;
 }
+
+.ag{
+  background: url(../upload/agenda.jpg) no-repeat fixed;
+  background-position: 50% 50%;
+}
+
+
 
 .page-title .container {
   height: 500px;
