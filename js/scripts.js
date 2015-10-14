@@ -168,6 +168,27 @@ $(document).ready(function(){
 
 	});
 
+	// NivoSlider
+	$('.slider').nivoSlider({
+	    pauseTime: 4000,
+	    directionNav: false,
+	    controlNav: false,
+	});
+
+	$('#owl-organizers').owlCarousel({
+	    items: 3,
+        margin: 20,
+        autoplay: true,
+        responsive: {
+            0 : {
+                items: 2
+            },
+            768 : {
+                items: 3
+            }
+        }
+	 });
+
 	// Custom Navigation Events
 	$(".next").on('click',function(){
 		owl.trigger('owl.next');
