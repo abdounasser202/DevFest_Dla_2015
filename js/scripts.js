@@ -69,24 +69,24 @@ $(document).ready(function(){
 		if (window.scrollY <= 400) {
 			$('a.item').removeClass('active');
 		}
-		if (window.scrollY > 400 && window.scrollY <= 800) {
+		if (window.scrollY > 400 && window.scrollY <= 900) {
 			$('a.item').removeClass('active');
 			$('#Intro').addClass('active');
-		} else if (window.scrollY > 800 && window.scrollY <= 1220) {
+		} else if (window.scrollY > 900 && window.scrollY <= 1480) {
 			$('a.item').removeClass('active');
 			$('#Speaker').addClass('active');
-		} else if (window.scrollY > 1220 && window.scrollY <= 1500) {
-			$('a.item').removeClass('active');
-			$('#Devfest').addClass('active');
-		} else if (window.scrollY > 1500 && window.scrollY <= 2200) {
-			$('a.item').removeClass('active');
-			$('#Agenda').addClass('active');
-		} else if (window.scrollY > 2200 && window.scrollY <= 2800) {
-			$('a.item').removeClass('active');
-			$('#lieu').addClass('active');
-		} else if (window.scrollY > 2800) {
+		} else if (window.scrollY > 1480 && window.scrollY <= 2150) {
 			$('a.item').removeClass('active');
 			$('#Organisation').addClass('active');
+		} else if (window.scrollY > 2150 && window.scrollY <= 2750) {
+			$('a.item').removeClass('active');
+			$('#lieu').addClass('active');
+		} else if (window.scrollY > 2750 && window.scrollY <= 3500) {
+			$('a.item').removeClass('active');
+			$('#Agenda').addClass('active');
+		} else if (window.scrollY > 3500) {
+			$('a.item').removeClass('active');
+			$('#Sponsor').addClass('active');
 		}
 	});
 	
