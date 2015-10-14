@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<title>GDG Douala DevFest 2015</title>
 
@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="css/spacings.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/nivo-slider.css" />
 
 		<!-- And also favicons -->
 		<link rel="shortcut icon" href="upload/favicon.ico">
@@ -52,15 +53,15 @@
 							<img src="upload/gdg-d.png" alt="logo">
 						</a>
 						<!-- Navigation item -->
-						<div class="pull-right" style="margin-left: 20px">
+						<div class="pull-right">
 							<a href="#intro" class="item" id="Intro">Apropos</a>
 							<a href="#speakers" class="item" id="Speaker">Speaker</a>
 							<a href="#organisation" class="item" id="Organisation">Organisation</a>
 							<a href="#venue" class="item" id="lieu">Lieu</a>
 							<a href="#agenda" class="item" id="Agenda">Agenda</a>
 							<a href="#sponsor" class="item" id="Devfest">Sponsor</a>
-							<button class="btn btn-info">Enrégistrez-vous</button> 
-							<button class="btn btn-danger">Devenir un speaker</button>
+							<a href="https://www.eventbrite.fr/e/billets-gdg-devfest-douala-19030569947#" target="_blank" class="btn btn-info">Enrégistrez-vous</a> 
+							<a href="https://docs.google.com/forms/d/1-I-1s3uIySLdTWiOhAtjVyxhjaJgZEzv9rLgvQyCJNY/viewform" target="_blank" class="btn btn-danger">Devenir un speaker</a>
 						</div>
 					</div>
 					
@@ -78,7 +79,10 @@
 			
 				<canvas id="spiders" width="100%"></canvas>
 				<div class="container relative clearfix">
-				<h1 class="main-title">GDG DEVFEST Douala 2015<br/><span>September - December</span></h1>	
+				<h1 class="main-title">GDG DEVFEST Douala 2015<br/>
+					<span><i class="fa fa-arrow-circle-right"></i> SHARE THE INNOVATION <i class="fa fa-arrow-circle-left"></i></span><br/>
+				</h1>
+				<h3 style="color:#fff">24 et 25 Octobre 2015</h3>
 					
 				</div> <!-- end container -->
 			</section> <!-- end page title -->
@@ -90,10 +94,11 @@
 
 						<div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
 							<h2 class="intro-heading">
-							<strong>WHAT IS A GDG DEVFEST?</strong>
+							<strong style="text-transform: uppercase">Description du DevFest</strong>
 							</h2>
-							<p class="intro-text">
-								GDG DevFests are large, community-run events that can offer speaker sessions across multiple product areas, all-day hack-a-thons, code labs, and more. In 2014, the official DevFest Season runs from September 15th through November 30th.
+							<p class="intro-text" style="text-transform: justify;">
+								Le DevFest est un événement communautaire organisé chaque année dans diverses villes du monde et qui vise a célébrer les développeurs et développeuses. Développer c'est un art, une passion, une façon de vivre et de penser. Les DevFest sont l'occasion d'exposer et de partager cette façon de vivre avec des profanes comme des geeks du code. Cette année pour le DevFest Douala, nous avons mis l'accent sur le partage et la collaboration qui sont deux caractéristiques qui doivent prévaloir dans l'univers du code, de ce fait le thème retenu pour cette est année est : <strong> SHARE THE INNOVATION</strong>. <br/>
+								Nous vous donnons donc rendez-vous les 24 et 25 Octobre prochain pour ensemble partager notre amour et notre intérêt pour le code.
 							</p>
 						</div> <!-- end col -->
 
@@ -108,7 +113,7 @@
 			<section class="section-wrap testimonials-slider" id="speakers" style="background-size: cover">
 				<div class="container">
 					<h2 class="color-white text-center"><strong>LES SPEAKERS</strong></h2>
-					<p class="subheading color-white text-center">We Are Proud To Have Them With Us</p>
+					<p class="subheading color-white text-center">Notre panel de speakers</p>
 
 					<div class="row">
 						<div id="owl-testimonials" class="owl-carousel owl-theme mt-40">
@@ -172,47 +177,62 @@
 			<section class="section-wrap pb-0 our-team bg-light" id="organisation">
 				<div class="container">
 					<h2 class="text-center"><strong>COMITE D'ORGANISATION</strong></h2>
-					<p class="subheading text-center">Merci à tous les volontaires</p>
+					<p class="subheading text-center"style="color:#000">Merci à tous les volontaires</p>
 
 					<div class="row mt-30">
-
-						<div class="col-md-4 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-							<div class="team-member">
-								<div class="team-img">
+						<div id="owl-organizers" class="owl-carousel owl-theme">
+							<div class="item item-o">
+								<div class="nivoSlider slider">
 									<img src="upload/team_1.png" alt="">
-									<div class="team-details text-center">
-										<h5 class="team-title mb-10">Team Media</h5>
-										<span>Organizer</span>
-									</div>
-								</div>							
-							</div> <!-- end team member -->
-						</div> <!-- end col -->
-
-						<div class="col-md-4 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-							<div class="team-member mt-mdm-40">
-								<div class="team-img">
-									<img src="upload/team_2.png" alt="">
-									<div class="team-details text-center">
-										<h5 class="team-title mb-10">Team Website</h5>
-										<span>Organizer</span>
-									</div>
-								</div>							
-							</div> <!-- end team member -->
-						</div> <!-- end col -->
-
-						<div class="col-md-4 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-							<div class="team-member mt-mdm-40">
-								<div class="team-img">
-									<img src="upload/team_3.png" alt="">
-									<div class="team-details text-center">
-										<h5 class="team-title mb-10">Team Logistique</h5>
-										<span>Organizer</span>
-									</div>
-								</div>							
-							</div> <!-- end team member -->
-						</div> <!-- end col -->
-
-					</div> <!-- end row -->
+									<img src="upload/organisation/constant-media.png" alt="">
+									<img src="upload/team_1.png" alt="">
+								</div>
+								<div class="text-center">
+									<h4 class="page-header"><i class="fa fa-users"></i> Team Média</h4>
+								</div>
+							</div>
+							<div class="item item-o">
+								<div class="nivoSlider slider">
+									<img src="upload/team_1.png" alt="">
+									<img src="upload/organisation/constant-media.png" alt="">
+									<img src="upload/organisation/website.png" alt="Emmanuelle">
+								</div>
+								<div class="text-center">
+									<h4 class="page-header"><i class="fa fa-users"></i> Team Website</h4>
+								</div>
+							</div>
+							<div class="item item-o">
+								<div class="nivoSlider slider">
+									<img src="upload/organisation/danielle-speaker.png" alt="Danielle Akini">
+									<img src="upload/organisation/constant-media.png" alt="">
+									<img src="upload/organisation/team-speaker.jpg" alt="speaker">
+								</div>
+								<div class="text-center">
+									<h4 class="page-header"><i class="fa fa-users"></i> Team Speaker/Programme</h4>
+								</div>
+							</div>
+							<div class="item item-o">
+								<div class="nivoSlider slider">
+									<img src="upload/team_1.png" alt="">
+									<img src="upload/organisation/constant-media.png" alt="">
+									<img src="upload/team_1.png" alt="">
+								</div>
+								<div class="text-center">
+									<h4 class="page-header"><i class="fa fa-users"></i> Team Venue</h4>
+								</div>
+							</div>
+							<div class="item item-o">
+								<div class="nivoSlider slider">
+									<img src="upload/team_1.png" alt="">
+									<img src="upload/organisation/constant-media.png" alt="">
+									<img src="upload/team_1.png" alt="">
+								</div>
+								<div class="text-center">
+									<h4 class="page-header"><i class="fa fa-users"></i> Team Logistique</h4>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div> <!-- end container -->
 			</section> <!-- end our team -->
 
@@ -220,7 +240,7 @@
 			<section class="section-wrap pb-0 our-team bg-light" id="venue">
 				<div class="container">
 				<h2 class="text-center"><strong>LOCALISATION</strong></h2>
-					<p class="subheading text-center">Douala, ActivSpaces</p>
+					<p class="subheading text-center" style="color:#000">Douala, ActivSpaces</p>
 				</div>
 			</section>
 				
@@ -228,10 +248,10 @@
 	        <section id="google-map" class="gmap"></section>
 
 	        <!-- Agenda -->
-			<section class="section-wrap bg-light" id="agenda" style="background-image: url(upload/agenda.png); background-size: cover;">
+			<section class="section-wrap bg-light ag" id="agenda">
 				<div class="container">			
 					<h2 class="text-center"><strong>AGENDA</strong></h2>
-					<p class="subheading text-center">Here are the planned activities</p>
+					<p class="subheading text-center">Le planning de l'évènement</p>
 
 					<div class="row mt-20">
 
@@ -315,7 +335,7 @@
 				        <div>
 							<span class="fa fa-twitter fa-3x"></span>
 						</div>
-					    <h1>What's Up? <a href="https://twitter.com/search?q=%23devfest" target="_blank">#DevFest</a></h1>
+					    <h1>What's Up? <a href="https://twitter.com/hashtag/DevFestDla15?src=hash" target="_blank">#DevFest Douala 2015</a></h1>
 					</div>
 				</div> <!-- end container -->
 			</section> <!-- end call to action -->
@@ -395,11 +415,8 @@
 		
 		<!-- jQuery Scripts -->
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/canvas-vas.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/material.min.js"></script>
-		<script type="text/javascript" src="js/ripples.min.js"></script>
 		<script type="text/javascript" src="js/lightbox.min.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/jquery.appear.js"></script>
@@ -413,12 +430,11 @@
 		<script type="text/javascript" src="js/jquery.gmap.js"></script>
 	    <script type="text/javascript" src="js/scripts.js"></script>
 		<script type="text/javascript" src="js/rev-slider.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
 
 
 		<!-- Google Map -->
 	    <script type="text/javascript">
-
-	        $.material.init();
 			
 			$('#google-map').gMap({
 
@@ -448,6 +464,7 @@
 	            }
 
 	        });
+
 
 	    </script> <!-- end google map -->
 
