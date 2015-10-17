@@ -1,0 +1,4 @@
+"Je suis BAMAL Samuel Aymard, Ingénieur de conception en Techniques et Technologies de l'information.
+
+Concepteur de l'application mobile et web ShoOwer, annuaire mobile professionel en ligne par géolocalisation avec ou sans gps, capable de détecter les offres d'emplois et les promotions environnantes sur 2km à la ronde.
+http://www.shoower.com"
