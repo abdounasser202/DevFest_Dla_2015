@@ -72,10 +72,10 @@ $(document).ready(function(){
 		if (window.scrollY > 400 && window.scrollY <= 900) {
 			$('a.item').removeClass('active');
 			$('#Intro').addClass('active');
-		} else if (window.scrollY > 900 && window.scrollY <= 1480) {
+		} else if (window.scrollY > 900 && window.scrollY <= 1470) {
 			$('a.item').removeClass('active');
 			$('#Speaker').addClass('active');
-		} else if (window.scrollY > 1480 && window.scrollY <= 2150) {
+		} else if (window.scrollY > 1470 && window.scrollY <= 2150) {
 			$('a.item').removeClass('active');
 			$('#Organisation').addClass('active');
 		} else if (window.scrollY > 2150 && window.scrollY <= 2750) {
@@ -178,7 +178,7 @@ $(document).ready(function(){
 	$('#owl-organizers').owlCarousel({
 	    items: 3,
         margin: 20,
-        autoplay: true,
+        autoPlay: 10000,
         responsive: {
             0 : {
                 items: 2
